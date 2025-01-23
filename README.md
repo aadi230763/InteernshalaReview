@@ -1,69 +1,24 @@
-# Welcome to your Lovable project
+Product Reviews App
+This is a React/Next.js-based single-page application that displays products fetched from the Fake Store API. The app allows users to explore products and view detailed reviews in a reusable, responsive modal. It also comes with a dark mode feature for a better user experience.
 
-## Project info
+Features
+✨ Fetches products from the Fake Store API
+✨ Displays product information (title, image, price, and rating)
+✨ Provides a modal with detailed product reviews and information
+✨ Dark Mode for a visually comfortable experience
+✨ Implements modern React practices, including functional components and hooks
+✨ Responsive design for seamless usage across devices
+✨ Basic error handling for a smooth user experience
 
-**URL**: https://lovable.dev/projects/17d217a8-6814-4c84-a227-798c19dc257b
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/17d217a8-6814-4c84-a227-798c19dc257b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/17d217a8-6814-4c84-a227-798c19dc257b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+How It Works
+-The app fetches product data from the API using modern tools like fetch or axios.
+-A list of products is displayed on the main page.
+-Clicking a button opens a modal with detailed information about the selected product:
+-Product title
+-Description
+-Image
+-Price
+-Rating (including rate and count of reviews)
+-Dark Mode can be toggled for a better viewing experience in low-light environments.
+-The modal is fully responsive and reusable.
