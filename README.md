@@ -1,4 +1,5 @@
 Product Reviews App
+
 This is a React/Next.js-based single-page application that displays products fetched from the Fake Store API. The app allows users to explore products and view detailed reviews in a reusable, responsive modal. It also comes with a dark mode feature for a better user experience.
 
 
