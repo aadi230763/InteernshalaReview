@@ -4,6 +4,7 @@ This is a React/Next.js-based single-page application that displays products fet
 
 
 Features
+
 ✨ Fetches products from the Fake Store API
 ✨ Displays product information (title, image, price, and rating)
 ✨ Provides a modal with detailed product reviews and information
